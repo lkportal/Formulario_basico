@@ -28,19 +28,23 @@ export default{
     name:'InputText'
 }
 </script>
+
 <style>
+
 .inputs-formulario{
-   padding: 50px;
-   margin:10px;
    position: relative;
    right: 20px;
    height: 25px;
+   left:40px;
 }
 .inputs-formulario input[type=text],input[type=password]{
    background-color: beige;
-   height: 20px;
-   margin:15px;
+   height: 40px;
+   width: 200px;
+   margin:8px;
    border-radius: 5px;
+   border: solid 1px gray;
+   
 }
 
 
