@@ -47,6 +47,7 @@ import Infor from './components/forms/Infor'
   background-color: #DEEFE7;
   height: 500px;
   width: 300px;
+  border-radius:15px 1px 1px 15px ;
   text-align: center;
   
 
@@ -56,6 +57,7 @@ import Infor from './components/forms/Infor'
   height: 500px;
   width: 300px;
   background-color: #32A89C;
+  border-radius: 1px 15px 15px 1px;
 }
 #h1-app{
   margin-top: 25px;;
@@ -72,6 +74,20 @@ import Infor from './components/forms/Infor'
   left: 75px;
   bottom: 100px;
   border-radius: 100px 100px 100px 100px;
+  animation: move 3s alternate-reverse infinite;
 }
+@keyframes move {
+    from{border-color: #002333; background-color:#159A9C ;}
+    to{border-color:#159A9C ; background-color: #002333 ;}
+}
+
+@media only screen and(max-width:650px) {
+   .main-application-grid{
+     margin-left: 1rem;
+   }
+  
+}
+
+
 
 </style>
